@@ -68,3 +68,10 @@ function sendMessage() {
   // Scroll to the bottom of the conversation
   conversation.scrollTop = conversation.scrollHeight;
 }
+
+// Function to check if the Enter key was pressed
+function checkEnter(event) {
+  if (event.key === "Enter") {  // Check if Enter key is pressed
+    sendMessage();
+  }
+}
