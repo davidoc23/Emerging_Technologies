@@ -1,10 +1,10 @@
 
-Trigram Analysis and Text Generation from Text Files
+**Trigram Analysis and Text Generation from Text Files**
 
-Overview
+**Overview**
 This project processes text files containing books, cleans and formats the content, performs trigram analysis to identify the most frequent trigrams (sequences of three characters), and generates text based on the trigram model. It includes functionality to remove preamble and postamble metadata (such as Project Gutenberg-specific markers), clean text data, generate trigrams, merge trigram models, analyze results, and export the trigram model to a JSON file.
 
-Features
+**Features**
 
 **Text Cleaning**
 - Removes preamble and postamble (e.g., "START OF THE PROJECT GUTENBERG EBOOK" and "END OF THE PROJECT GUTENBERG EBOOK").
@@ -112,20 +112,9 @@ Percentage of valid English words: 79.17%
 Trigram model exported to trigrams.json.
 
 File Output:
-- Cleaned text: `test.txt`
+- Cleaned text: `words.txt`
 - Generated text: `generated_text.txt`
 - Trigram model: `trigrams.json`
 
-Customization
-- To change the starting string or length of the generated text, modify the parameters:
-  python
-  generated_text = generate_string_from_trigram_model(final_model, start_string="YOUR_STRING", length=YOUR_LENGTH)
-  
-- To analyze a different English word list, replace `words.txt` with your own file.
-- To save the trigram model under a different name, specify the `filename` parameter:
-  Python export_model_to_json(final_model, filename='custom_filename.json')
-  
-
 License
 This project is open-source and available for educational or personal use.
-
