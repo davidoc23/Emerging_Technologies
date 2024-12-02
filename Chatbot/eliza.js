@@ -10,23 +10,33 @@ const responses = {
   "i'm sad": (input) => `I'm sorry to hear that. Would you like to talk about what's making you sad?`,
   "i'm happy": (input) => `That's great! What made you feel happy today?`,
   "i'm stressed": (input) => `Stress can be tough. What's been bothering you?`,
+  "i'm angry": (input) => `I'm sorry you're feeling angry. What happened that made you feel this way?`,
+  "i'm excited": (input) => `That's awesome! What's making you feel excited?`,
+  "i'm lonely": (input) => `I'm here to talk if you need someone. Would you like to share what's on your mind?`,
 
   // Work and Hobbies
   "work": (input) => `How's work going? Are you enjoying it?`,
   "i hate my job": (input) => `That sounds really hard. What do you dislike about your job?`,
   "i love my job": (input) => `That's wonderful! What do you enjoy most about it?`,
+  "i'm looking for a job": (input) => `Job hunting can be challenging. What kind of role are you looking for?`,
   "hobbies": (input) => `What are your hobbies? It's great to have activities you enjoy.`,
   "i like to": (input) => `That sounds fun! How long have you been ${extractDetail(input, "i like to")}?`,
+  "i play": (input) => `Playing ${extractDetail(input, "i play")} sounds enjoyable! How long have you been doing it?`,
+  "i read": (input) => `Reading is a great hobby! What kind of books do you enjoy?`,
 
   // Relationships
   "my friend": (input) => `Tell me more about your friend. How's your relationship with them?`,
   "my family": (input) => `Family is important. Do you have a close relationship with them?`,
   "my partner": (input) => `Would you like to share more about your relationship with your partner?`,
+  "i miss someone": (input) => `Missing someone can be tough. Want to share more about them?`,
+  "i'm in love": (input) => `That's wonderful! What do you love most about them?`,
+  "i had an argument": (input) => `Arguments can be difficult. Would you like to talk about what happened?`,
 
   // General Conversation
   "how are you": (input) => `I'm just a program, but thank you for asking! How are you?`,
   "what's your name": (input) => `I'm ELIZA, your virtual conversation partner.`,
   "tell me a joke": (input) => `Why don't scientists trust atoms? Because they make up everything!`,
+  "what do you think": (input) => `I'm here to listen to you. What are your thoughts?`,
 
   // Goodbye
   "bye": (input) => `Goodbye! Take care.`,

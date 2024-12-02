@@ -116,5 +116,25 @@ File Output:
 - Generated text: `generated_text.txt`
 - Trigram model: `trigrams.json`
 
+
+**ELIZA Chatbot**
+
+**Overview**
+- ELIZA is a simple chatbot designed to simulate a conversation partner. It responds to user input with predefined responses, mimicking a basic therapeutic conversation.
+
+**Features**
+- Conversation Handling
+
+  Provides responses based on user input related to emotions, work, hobbies, and relationships.
+  Includes general responses for greetings, farewells, and casual conversation.
+  Dynamic Responses
+  Uses functions to extract details from user input and incorporate them into responses, creating a more personalized interaction.
+
+**ELIZA Chatbot:**
+
+  1. Navigate to https://davidoc23.github.io/Emerging_Technologies/ 
+
+  2. Interact with ELIZA through the provided chat interface.
+
 License
 This project is open-source and available for educational or personal use.
