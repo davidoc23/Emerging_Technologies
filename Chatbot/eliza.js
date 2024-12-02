@@ -10,12 +10,14 @@ const responses = {
   "im happy": (input) => `That's great! What made you feel happy today?`,
   "i am happy": (input) => `That's great! What made you feel happy today?`,
   "i'm happy": (input) => `That's great! What made you feel happy today?`,
+  "im good": (input) => `That's great to hear! What's been going well for you?`,
+  "i am good": (input) => `That's great to hear! What's been going well for you?`,
+  "i'm good": (input) => `That's great to hear! What's been going well for you?`,
   "im sad": (input) => `I'm sorry to hear that. Would you like to talk about what's making you sad?`,
   "i am sad": (input) => `I'm sorry to hear that. Would you like to talk about what's making you sad?`,
   "i'm sad": (input) => `I'm sorry to hear that. Would you like to talk about what's making you sad?`,
   "im stressed": (input) => `Stress can be tough. What's been bothering you?`,
   "i'm stressed": (input) => `Stress can be tough. What's been bothering you?`,
-  "i am stressed": (input) => `Stress can be tough. What's been bothering you?`,
 
   // Work and Hobbies
   "work": (input) => `How's work going? Are you enjoying it?`,
@@ -43,6 +45,7 @@ const responses = {
   "i don't understand": (input) => `Can you tell me more about that?`,
   "not sure": (input) => `That's okay, take your time. We can talk about anything you'd like.`
 };
+
 
 
 // Function to extract details from user input
