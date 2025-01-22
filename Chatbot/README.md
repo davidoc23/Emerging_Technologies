@@ -2,7 +2,7 @@
 
 This is a simple client-side implementation of the ELIZA chatbot using HTML, CSS, and JavaScript. The chatbot mimics the behavior of the original ELIZA by responding to user inputs with pre-defined patterns.
 
-[Live Chatbot](https://placeholderlinkfornow.ie)
+[Live Chatbot](https://placeholderlinkfornow.ie](https://davidoc23.github.io/Emerging_Technologies/)
 
 ## Features
 - Basic conversation handling
